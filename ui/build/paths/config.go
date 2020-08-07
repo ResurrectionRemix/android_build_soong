@@ -74,7 +74,9 @@ func GetConfig(name string) PathConfig {
 }
 
 var Configuration = map[string]PathConfig{
-	"bash":     Allowed,
+	"arm-linux-androidkernel-as": Log,
+        "arm-linux-androidkernel-ld": Log,
+        "bash":     Allowed,
 	"bc":       Allowed,
 	"bzip2":    Allowed,
 	"date":     Allowed,
